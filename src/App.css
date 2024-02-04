@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  background-position: center top;
+  align-items: flex-start;
+  display: flex;
+  text-decoration: none;
+  height: 1100px;
+  width: 1450px;
+  background-size: 50cm;
+  background-color: hsl(275, 100%, 97%);
+  background-repeat: no-repeat;
+  background-image: url("../src/assets/images/background-pattern-desktop.svg");
+  justify-content: center;
+}
+
+#root {
+  display: flex;
+  width: 100%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.main {
+  background-color: white;
+  width: 100%;
+  margin-top: 150px;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-left: 20px;
+  max-width: 600px;
+}
